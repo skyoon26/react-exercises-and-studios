@@ -1,0 +1,14 @@
+.bookImg {
+  height: 200px;
+  width: auto;
+}
+
+.bookHeading {
+  color: black;
+  text-align: center;
+}
+
+.bookDiv {
+  border: solid black 1px;
+  margin: 100px 440px;
+}
