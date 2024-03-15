@@ -1,5 +1,8 @@
+import "./recipe.json";
+
 function RecipeImage() {
-   return;
+  <img src="" />;
+  return
  }
  
  export default RecipeImage;
