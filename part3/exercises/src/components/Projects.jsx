@@ -15,15 +15,26 @@ export default function MyProjects() {
    }
   }
 
-  let projects = data.projects;
+  let projects = data.recipes;
   let project = projects[index];
+
+  function handleClick() {
+    if (index < data.recipes.length-1)
+    {
+       setIndex(index + 1);
+    }
+    else 
+    {
+       setIndex(0);
+    }
+ }
 
   return (
     <div>
       <button onClick={handleClick}>
         Next
       </button>
-      <h2>{project.canvas} by {project.designer}
+      <h2>{project.dessert} by {project.chef}
       </h2>
       <img src={project.photoUrl} alt={project.alt} />
     </div>
